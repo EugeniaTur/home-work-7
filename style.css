@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+.border {
+  border: 3px solid black;
+}
+
+.space {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.block1 {
+  overflow: hidden;
+}
+
+.block1__elem {
+  width: 100px;
+  height: 100px;
+}
+
+.block1__elem--first {
+  float: left;
+}
+
+.block1__elem--second {
+  float: right;
+}
+
+.block2 {
+  overflow: hidden;
+}
+
+.block2__elem {
+  width: 100px;
+  height: 100px;
+}
+
+.block2__elem--first {
+  float: left;
+}
+
+.block2__elem--second,
+.block2__elem--third,
+.block2__elem--fourth,
+.block2__elem--fifth {
+  float: right;
+  margin-left: 1rem;
+}
+
+.block3 {
+  overflow: hidden;
+}
+
+.block3__elem {
+  width: 100px;
+  height: 100px;
+}
+
+.block3__elem--first,
+.block3__elem--second {
+  float: left;
+  margin-right: 1rem;
+}
+
+.block3__elem--third,
+.block3__elem--fourth {
+  float: right;
+  margin-left: 1rem;
+}
+
+.block4 {
+  text-align: center;
+}
+
+.block4__elem--first {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 1rem;
+}
+
+.block4__elem--second {
+  margin-bottom: 1rem;
+}
+
+.block4__elem--second,
+.block4__elem--third {
+  width: 300px;
+  height: calc(100px - 0.5rem);
+}
+
+.block4__wrapper {
+  float: left;
+}
+
+.block4__container {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.block4--right {
+  text-align: right;
+}
